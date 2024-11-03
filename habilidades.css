@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#fundo1{
+    background-image: url(Fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+#paginas{
+    list-style: none;
+    display: flex;
+    font-family: "Jost" , sans-serif;
+    font-size: 15px;
+}
+
+#inicial{position: relative;
+    padding-top: 200px;
+    padding-left: 600px;
+    font-family: "Jost" , sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #8311C5;
+}
+
+#inicial::after{
+    content: "";
+    position: absolute;
+    width:25%;
+    height:1px;
+    background-color: black;
+    top:100%;
+    left:35.5%;
+}
+
+#paginas a{
+    text-decoration: none;
+    color: black;
+}
+
+#paginas a:hover{
+    color: #8311C5;
+}
+
+#titulo1{
+    font-family: "Jost" , sans-serif;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.grupo{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 2%;
+    width: 80%;
+    margin: auto;
+}
+
+.imagem img{
+    width: 120%;
+    border-radius: 30px;
+}
+
+#imagem{
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    gap: 20px;
+}
+
+h2{
+    font-family: "Jost" , sans-serif;
+    color: #8311C5;
+}
+
+p{
+    font-family: "Jost" , sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #E3B4FF;
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+}
+
+#titulo3{
+    font-family: "Jost" , sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+#item{
+    font-family: "Jost" , sans-serif;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#icones{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+}
+
+/*Para o dark mode*/
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button{
+    padding-left: 20px;
+}
+
+#inicial{position: relative;
+    padding-top: 200px;
+    padding-left: 600px;
+    font-family: "Jost" , sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #8311C5;
+}
+
+#inicial::after{
+    content: "";
+    position: absolute;
+    width:25%;
+    height:1px;
+    background-color: black;
+    top:100%;
+    left:35.5%;
+}
+
+#paginas {
+    list-style: none;
+    padding: 0;
+}
+
+#paginas li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#paginas a{
+    text-decoration: none;
+}
+
+#toggle-dark-mode {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    color: #4c2b67;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer #icones {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dark-mode {
+    background-color: #1f0931;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: #4c2b67;
+}

@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#fundo1{
+    background-image: url(Fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+#paginas{
+    list-style: none;
+    display: flex;
+    font-family: "Jost" , sans-serif;
+    font-size: 15px;
+}
+
+#inicial{position: relative;
+    padding-top: 200px;
+    padding-left: 600px;
+    font-family: "Jost" , sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #8311C5;
+}
+
+#inicial::after{
+    content: "";
+    position: absolute;
+    width:25%;
+    height:1px;
+    background-color: black;
+    top:100%;
+    left:35.5%;
+}
+
+#paginas a{
+    text-decoration: none;
+    color: black;
+}
+
+#paginas a:hover{
+    color: #8311C5;
+}
+
+#titulo1{
+    font-family: "Jost" , sans-serif;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-left: 25px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+#formulario {
+    padding: 20px;
+    border-radius: 10px; 
+    width: 80%;
+    margin: auto;
+    color: white; 
+}
+
+.input-group {
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nome, .sobrenome, .email, .mensagem {
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 100%; 
+    background-color: #E3B4FF;
+}
+
+ .mensagem::placeholder{
+    font-family: "Jost" , sans-serif;
+    color: black;
+}
+
+.email::placeholder{
+    font-family: "Jost" , sans-serif;
+    color: black;
+}
+
+.sobrenome::placeholder{
+    font-family: "Jost" , sans-serif;
+    color: black; 
+}
+
+.nome::placeholder{
+    font-family: "Jost" , sans-serif;
+    color: black; 
+}
+
+.nome, .sobrenome {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.sobrenome {
+    margin-right: 0; 
+}
+
+.email {
+    margin-top: 10px; 
+}
+
+.mensagem {
+    height: 100px; 
+    resize: none; 
+}
+
+
+footer{
+    background-color: #E3B4FF;
+    width: 100%;
+    height: 250px;
+}
+
+#titulo3{
+    font-family: "Jost" , sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+#item{
+    font-family: "Jost" , sans-serif;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#icones{
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+}
+
+#toggle-dark-mode {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    color: #4c2b67;
+    font-size: 15px;
+}
+
+
